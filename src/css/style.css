@@ -32,6 +32,10 @@ body {
    border:  .1rem solid var(--nav--color);
    height:  8rem;
    padding: 0 12rem;
+   width: 100%;
+   position: relative;
+   left: 0;
+   right: 0;
 }
 
 .navigation {
@@ -67,6 +71,7 @@ body {
 
 .details--nav {
     display: flex;
+    font-size: 5rem; 
 
 }
 
@@ -91,6 +96,7 @@ body {
 .customer--name-search {
     display: flex;
     justify-content: space-between;
+    width: 80rem;
 }
 
 .name {
@@ -265,4 +271,47 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 30px */
 letter-spacing: -0.022rem;
+}
+
+
+/* media query */
+
+@media(max-width:60.25em){
+    .nav{
+        width: 96.4rem;
+    }
+
+    .details--nav {
+        font: size 5rem; 
+    }
+
+    .main {
+        padding: 4rem 8rem;
+    }
+}
+@media(max-width:50em){
+.details--nav {
+    font-size: 6rem;
+}
+
+.sub-div h5, span {
+  font-size: 2rem; 
+  font-weight: 700;
+}
+
+.sub-div2 h5{
+  font-size: 2rem;
+
+}
+
+.infoo h4 {
+    font-size: 2rem;
+}
+
+
+
+  
+
+
+
 }
