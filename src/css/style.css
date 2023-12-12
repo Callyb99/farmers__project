@@ -80,7 +80,7 @@ body {
     font-size: 1.4rem;
     font-weight: 500;
    line-height: 150%; 
-   letter-spacing: -0.154px;
+   letter-spacing: -0.154rem;
    color:  var(--darkest-green-color);
 }
 
